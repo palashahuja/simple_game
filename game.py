@@ -20,7 +20,7 @@ def main():
 	DISPLAY = pygame.display.set_mode((HEIGHT,WIDTH))
 	pygame.display.set_caption('grivboy')
 	DISPLAY.fill(BACKGROUND_COLOR)
-	N0_OF_SPOKES = 9    # always an odd number
+	N0_OF_SPOKES = 9    # an odd number
 	X_COORDINATE_original = 260
 	X_COORDINATE = X_COORDINATE_original
 	Y_COORDINATE_original = 120
